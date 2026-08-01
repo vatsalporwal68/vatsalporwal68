@@ -32,12 +32,9 @@ jobs:
         run: |
           python scripts/generate_stats.py
 
-      - name: Generate ASCII Portrait SVG (if image exists)
+      - name: Generate ASCII Portrait SVG from GitHub Avatar
         run: |
-          if [ -f portrait.jpg ] || [ -f portrait.png ]; then
-            INPUT_IMG=$(ls portrait.jpg portrait.png 2>/dev/null | head -n 1)
-            python scripts/generate_ascii.py --input "$INPUT_IMG" --output assets/portrait.svg
-          fi
+          python scripts/generate_ascii.py --username "${{ github.repository_owner }}" --output assets/portrait.svg
 
       - name: Commit and Push Updated Assets
         run: |

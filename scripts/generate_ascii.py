@@ -163,17 +163,36 @@ def generate_sample_ppm(filename="portrait.jpg"):
         f.write(header + "\n".join(pixels))
     return pgm_file
 
+def download_github_avatar(username="vatsalporwal68", output_path="portrait.png"):
+    url = f"https://github.com/{username}.png"
+    print(f"[+] Downloading GitHub profile picture for user '{username}' from {url}...")
+    import urllib.request
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req) as resp, open(output_path, "wb") as f:
+            f.write(resp.read())
+        print(f"[+] Downloaded avatar to '{output_path}'.")
+        return output_path
+    except Exception as e:
+        print(f"[!] Failed to download avatar: {e}")
+        return None
+
 def main():
     parser = argparse.ArgumentParser(description="Generate SMIL animated ASCII portrait SVG")
-    parser.add_argument("--input", "-i", default="portrait.jpg", help="Path to input photo")
+    parser.add_argument("--input", "-i", default="", help="Path to input photo")
     parser.add_argument("--output", "-o", default="assets/portrait.svg", help="Output SVG path")
     parser.add_argument("--cols", "-c", type=int, default=90, help="Number of ASCII columns (default: 90)")
+    parser.add_argument("--username", "-u", default="vatsalporwal68", help="GitHub username to fetch avatar for")
     
     args = parser.parse_args()
 
-    if not os.path.exists(args.input):
-        print(f"[!] Input image '{args.input}' not found. Creating sample image...")
-        args.input = generate_sample_ppm()
+    if not args.input or not os.path.exists(args.input):
+        avatar_file = download_github_avatar(args.username)
+        if avatar_file and os.path.exists(avatar_file):
+            args.input = avatar_file
+        else:
+            print(f"[!] Creating sample image fallback...")
+            args.input = generate_sample_ppm()
 
     lines, cols, rows = process_image(args.input, cols=args.cols)
     generate_svg(lines, cols, rows, args.output)
