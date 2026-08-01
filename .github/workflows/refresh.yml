@@ -1,0 +1,53 @@
+name: Refresh GitHub Profile Stats & Assets
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Generate Visual Statistics SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+        run: |
+          python scripts/generate_stats.py
+
+      - name: Generate ASCII Portrait SVG (if image exists)
+        run: |
+          if [ -f portrait.jpg ] || [ -f portrait.png ]; then
+            INPUT_IMG=$(ls portrait.jpg portrait.png 2>/dev/null | head -n 1)
+            python scripts/generate_ascii.py --input "$INPUT_IMG" --output assets/portrait.svg
+          fi
+
+      - name: Commit and Push Updated Assets
+        run: |
+          FILES="assets/*.svg"
+          if [ -z "$(git status --porcelain $FILES)" ]; then
+            echo "No asset changes detected. Skipping commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/*.svg
+          git commit -m "chore(stats): update self-generated profile assets [skip ci]"
+          git push

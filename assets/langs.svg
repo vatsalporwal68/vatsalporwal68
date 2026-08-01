@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 150" width="440" height="150">
+  <style>
+    .bg { fill: #0d1117; rx: 8px; }
+    .title { font-family: monospace; font-size: 14px; font-weight: bold; fill: #d2a8ff; }
+    .lang-lbl { font-family: monospace; font-size: 12px; fill: #c9d1d9; }
+    .lang-pct { font-family: monospace; font-size: 11px; fill: #8b949e; }
+  </style>
+  <rect class="bg" width="440" height="150" />
+  <text x="20" y="30" class="title">/// TOP LANGUAGES</text>
+  
+        <text x="20" y="55" class="lang-lbl">Python</text>
+        <rect x="140" y="45" width="128" height="10" fill="#f1e05a" rx="3"/>
+        <text x="278" y="55" class="lang-pct">71.4%</text>
+        
+        <text x="20" y="79" class="lang-lbl">Jupyter Notebook</text>
+        <rect x="140" y="69" width="51" height="10" fill="#3572A5" rx="3"/>
+        <text x="201" y="79" class="lang-pct">28.6%</text>
+        
+</svg>

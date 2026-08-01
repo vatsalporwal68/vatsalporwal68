@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 110" width="440" height="110">
+  <style>
+    .bg { fill: #0d1117; rx: 8px; }
+    .title { font-family: monospace; font-size: 14px; font-weight: bold; fill: #3fb950; }
+    .num { font-family: monospace; font-size: 26px; font-weight: bold; fill: #f0f6fc; }
+    .lbl { font-family: monospace; font-size: 11px; fill: #8b949e; }
+  </style>
+  <rect class="bg" width="440" height="110" />
+  <text x="20" y="30" class="title">/// STREAK TRACKER</text>
+  
+  <text x="20" y="65" class="num">12 days</text>
+  <text x="20" y="85" class="lbl">Current Streak</text>
+  
+  <text x="240" y="65" class="num">45 days</text>
+  <text x="240" y="85" class="lbl">Longest Streak</text>
+</svg>

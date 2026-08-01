@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 170" width="520" height="170">
+  <style>
+    .bg { fill: #0d1117; rx: 8px; }
+    .title { font-family: monospace; font-size: 14px; font-weight: bold; fill: #ffa657; }
+    .year-row { font-family: monospace; font-size: 12px; fill: #3fb950; letter-spacing: 2px; white-space: pre; }
+  </style>
+  <rect class="bg" width="520" height="170" />
+  <text x="20" y="30" class="title">/// YEAR IN ASCII DENSITY</text>
+  <text x="20" y="55" class="year-row">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text><text x="20" y="70" class="year-row">````````````````````````````````````````````````````</text><text x="20" y="85" class="year-row">----------------------------------------------------</text><text x="20" y="100" class="year-row">++++++++++++++++++++++++++++++++++++++++++++++++++++</text><text x="20" y="115" class="year-row">cccccccccccccccccccccccccccccccccccccccccccccccccccc</text><text x="20" y="130" class="year-row">####################################################</text><text x="20" y="145" class="year-row">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+</svg>
