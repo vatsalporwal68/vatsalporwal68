@@ -1,7 +1,7 @@
 # 👋 Hi there, I'm Vatsal Porwal (@vatsalporwal68)
 
 <p align="left">
-  <b>Chief Data Executive @ BillionEdge Technologies</b> • <b>Data Analyst & Business Translator</b> • <b>B.Tech AI & ML</b>
+  <b>Ex - Chief Data Executive @ BillionEdge Technologies</b> • <b>Data Analyst & Business Translator</b> • <b>B.Tech AI & ML</b>
 </p>
 
 <p align="left">
@@ -27,7 +27,7 @@
 ### /// ABOUT ME & CURRENT ROLE
 
 <samp>
-- 💼 <b>Current Role:</b> Chief Data Executive at <b>BillionEdge Technologies</b>.<br/>
+- 💼 <b>Current Role:</b> Ex - Chief Data Executive at <b>BillionEdge Technologies</b>.<br/>
 - 📊 <b>What I Do:</b> Engineer robust Python & SQL ETL/ELT pipelines, build interactive Power BI dashboards, and conduct deep-dive EDA to unlock business growth.<br/>
 - 🎓 <b>Education:</b> B.Tech in Artificial Intelligence & Machine Learning at <b>Galgotias College of Engineering and Technology</b> (2023 – 2027).<br/>
 - 🏅 <b>Certifications:</b> HackerRank Advanced SQL Certified.<br/>
@@ -121,5 +121,5 @@
 ---
 
 <div align="center">
-  <samp>Crafted for Vatsal Porwal • Chief Data Executive • Self-Generated via GitHub Actions</samp>
+  <samp>Crafted for Vatsal Porwal • Ex - Chief Data Executive • Self-Generated via GitHub Actions</samp>
 </div>
