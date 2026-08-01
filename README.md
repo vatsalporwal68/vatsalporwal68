@@ -16,8 +16,6 @@
 
 ---
 
-### /// SELF-TYPING ASCII PORTRAIT
-
 <div align="center">
   <img src="assets/portrait.svg" alt="Animated ASCII Portrait" width="460"/>
 </div>
