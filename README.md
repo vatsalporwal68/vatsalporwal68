@@ -1,6 +1,10 @@
-# 👋 Hello, I'm Vatsal Porwal (@vatsalporwal68)
+# 👋 Hi there, I'm Vatsal Porwal (@vatsalporwal68)
 
-> A personalized developer profile powered by code that generates and updates itself automatically. No third-party widgets, zero external dependencies, and every pixel rendered right inside this repository.
+<p align="left">
+  <b>Full-Stack & AI Software Engineer</b> • <b>Open Source Enthusiast</b> • <b>Problem Solver</b>
+</p>
+
+> A dynamic, self-generating GitHub profile powered by code that updates itself automatically. Zero external dependencies, built with pure Python and GitHub Actions.
 
 ---
 
@@ -10,25 +14,30 @@
   <img src="assets/portrait.svg" alt="Animated ASCII Portrait" width="460"/>
 </div>
 
-<br/>
+---
 
-> [!NOTE]
-> **To personalize your ASCII portrait:**
-> Add your photo named `portrait.jpg` (or `portrait.png`) to this repository root and run:
-> ```bash
-> python scripts/generate_ascii.py --input portrait.jpg --output assets/portrait.svg
-> ```
+### /// ABOUT ME & CURRENT FOCUS
+
+<samp>
+- 🔭 <b>Currently Working On:</b> High-performance web applications, automated AI pipelines, and open-source tools.<br/>
+- 💡 <b>Passionate About:</b> Full-Stack Architecture, Machine Learning, Clean Code, & Developer Automation.<br/>
+- 🎓 <b>Focusing On:</b> Scalable backend infrastructure, reactive UI design, & intelligent agents.<br/>
+- 📫 <b>Get In Touch:</b> <a href="https://github.com/vatsalporwal68">@vatsalporwal68</a> on GitHub
+</samp>
 
 ---
 
-### /// ABOUT ME & TECH STACK
+### /// TECH STACK & SKILLS
 
-<samp>
-- 🚀 <b>Building:</b> Innovative Software, Full-Stack Applications, & AI Tools.<br/>
-- 💡 <b>Focus:</b> Clean Architecture, Automated Pipelines, & Modern Web Tech.<br/>
-- 🛠️ <b>Tech Stack:</b> Python, JavaScript, TypeScript, React, Node.js, C++.<br/>
-- 📫 <b>GitHub:</b> <a href="https://github.com/vatsalporwal68">@vatsalporwal68</a>
-</samp>
+<p align="left">
+  <b>Languages & Runtimes:</b><br/>
+  <code>Python</code> • <code>JavaScript (ES6+)</code> • <code>TypeScript</code> • <code>C++</code> • <code>HTML5 / CSS3</code> • <code>SQL</code>
+</p>
+
+<p align="left">
+  <b>Frameworks & Tools:</b><br/>
+  <code>React</code> • <code>Node.js</code> • <code>Express</code> • <code>Next.js</code> • <code>Git</code> • <code>Docker</code> • <code>GitHub Actions</code>
+</p>
 
 ---
 
@@ -36,7 +45,7 @@
 
 <div align="center">
 
-| Activity Stats | Streak Tracker |
+| Activity Metrics | Streak Tracker |
 | :---: | :---: |
 | <img src="assets/stats.svg" alt="GitHub Stats" width="420"/> | <img src="assets/streak.svg" alt="GitHub Streak" width="420"/> |
 
@@ -57,15 +66,15 @@
 ### ⚙️ HOW IT WORKS UNDER THE HOOD
 
 ```
-+------------------+     +------------------------+     +-------------------+
-| Input Photo      | --> | scripts/generate_ascii | --> | assets/portrait   |
-| (portrait.jpg)   |     | (Bilateral, CLAHE, SMIL) |     | (.svg)            |
-+------------------+     +------------------------+     +-------------------+
++------------------------+     +------------------------+     +-------------------+
+| GitHub Profile Avatar  | --> | scripts/generate_ascii | --> | assets/portrait   |
+| (vatsalporwal68.png)   |     | (Bilateral, SMIL, PIL) |     | (.svg)            |
++------------------------+     +------------------------+     +-------------------+
 
-+------------------+     +------------------------+     +-------------------+
-| GitHub GraphQL   | --> | scripts/generate_stats | --> | assets/*.svg      |
-| API (Nightly)    |     | (Pinned UTC, Public)   |     | (Stats/Streak/Yr) |
-+------------------+     +------------------------+     +-------------------+
++------------------------+     +------------------------+     +-------------------+
+| GitHub GraphQL API     | --> | scripts/generate_stats | --> | assets/*.svg      |
+| (Nightly Cron Job)     |     | (Pinned UTC, Public)   |     | (Stats/Streak/Yr) |
++------------------------+     +------------------------+     +-------------------+
 ```
 
 - **Zero Fragility:** All SVG graphics are generated directly within this repository using Python and committed back by GitHub Actions (`.github/workflows/refresh.yml`).
@@ -75,5 +84,5 @@
 ---
 
 <div align="center">
-  <samp>Generated autonomously with Antigravity AI • Powered by GitHub Actions</samp>
+  <samp>Crafted for Vatsal Porwal • Self-Generated via GitHub Actions</samp>
 </div>
