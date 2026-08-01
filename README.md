@@ -1,10 +1,10 @@
 # 👋 Hi there, I'm Vatsal Porwal (@vatsalporwal68)
 
 <p align="left">
-  <b>Full-Stack & AI Software Engineer</b> • <b>Open Source Enthusiast</b> • <b>Problem Solver</b>
+  <b>Data Analyst</b> • <b>Business Intelligence Specialist</b> • <b>Data Storyteller</b>
 </p>
 
-> A dynamic, self-generating GitHub profile powered by code that updates itself automatically. Zero external dependencies, built with pure Python and GitHub Actions.
+> Transforming complex raw data into actionable insights, interactive dashboards, and data-driven business solutions. A self-generating GitHub profile powered by Python and GitHub Actions.
 
 ---
 
@@ -19,24 +19,29 @@
 ### /// ABOUT ME & CURRENT FOCUS
 
 <samp>
-- 🔭 <b>Currently Working On:</b> High-performance web applications, automated AI pipelines, and open-source tools.<br/>
-- 💡 <b>Passionate About:</b> Full-Stack Architecture, Machine Learning, Clean Code, & Developer Automation.<br/>
-- 🎓 <b>Focusing On:</b> Scalable backend infrastructure, reactive UI design, & intelligent agents.<br/>
+- 📊 <b>Currently Working On:</b> Exploratory Data Analysis (EDA), automated ETL pipelines, and predictive analytics.<br/>
+- 💡 <b>Passionate About:</b> Data Storytelling, Business Intelligence, Statistical Modeling, & Database Optimization.<br/>
+- 🎓 <b>Focusing On:</b> Advanced SQL, Data Pipelines, Python for Data Science (Pandas, NumPy), and Interactive BI Dashboards.<br/>
 - 📫 <b>Get In Touch:</b> <a href="https://github.com/vatsalporwal68">@vatsalporwal68</a> on GitHub
 </samp>
 
 ---
 
-### /// TECH STACK & SKILLS
+### /// TECH STACK & ANALYTICS TOOLKIT
 
 <p align="left">
-  <b>Languages & Runtimes:</b><br/>
-  <code>Python</code> • <code>JavaScript (ES6+)</code> • <code>TypeScript</code> • <code>C++</code> • <code>HTML5 / CSS3</code> • <code>SQL</code>
+  <b>Data Analysis & Statistics:</b><br/>
+  <code>Python</code> • <code>SQL</code> • <code>Pandas</code> • <code>NumPy</code> • <code>R</code> • <code>Excel (Advanced)</code>
 </p>
 
 <p align="left">
-  <b>Frameworks & Tools:</b><br/>
-  <code>React</code> • <code>Node.js</code> • <code>Express</code> • <code>Next.js</code> • <code>Git</code> • <code>Docker</code> • <code>GitHub Actions</code>
+  <b>Visualization & Business Intelligence:</b><br/>
+  <code>Power BI</code> • <code>Tableau</code> • <code>Matplotlib</code> • <code>Seaborn</code> • <code>Plotly</code>
+</p>
+
+<p align="left">
+  <b>Databases & Tools:</b><br/>
+  <code>PostgreSQL</code> • <code>MySQL</code> • <code>MongoDB</code> • <code>Jupyter Notebooks</code> • <code>Git</code> • <code>Google BigQuery</code>
 </p>
 
 ---
@@ -84,5 +89,5 @@
 ---
 
 <div align="center">
-  <samp>Crafted for Vatsal Porwal • Self-Generated via GitHub Actions</samp>
+  <samp>Crafted for Vatsal Porwal • Data Analyst • Self-Generated via GitHub Actions</samp>
 </div>
