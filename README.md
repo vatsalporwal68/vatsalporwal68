@@ -1,10 +1,18 @@
 # 👋 Hi there, I'm Vatsal Porwal (@vatsalporwal68)
 
 <p align="left">
-  <b>Data Analyst</b> • <b>Business Intelligence Specialist</b> • <b>Data Storyteller</b>
+  <b>Chief Data Executive @ BillionEdge Technologies</b> • <b>Data Analyst & Business Translator</b> • <b>B.Tech AI & ML</b>
 </p>
 
-> Transforming complex raw data into actionable insights, interactive dashboards, and data-driven business solutions. A self-generating GitHub profile powered by Python and GitHub Actions.
+<p align="left">
+  <i>"From Raw Data to Board-Ready Insights | Turning Funnel Data into Growth Levers | I Speak Fluent Data AND Fluent Business."</i>
+</p>
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/vatsalporwal"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:vatsalporwal68@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://www.hackerrank.com/certificates/1fd773b806da"><img src="https://img.shields.io/badge/HackerRank_SQL_Advanced-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black" alt="HackerRank Certified"/></a>
+</p>
 
 ---
 
@@ -16,33 +24,57 @@
 
 ---
 
-### /// ABOUT ME & CURRENT FOCUS
+### /// ABOUT ME & CURRENT ROLE
 
 <samp>
-- 📊 <b>Currently Working On:</b> Exploratory Data Analysis (EDA), automated ETL pipelines, and predictive analytics.<br/>
-- 💡 <b>Passionate About:</b> Data Storytelling, Business Intelligence, Statistical Modeling, & Database Optimization.<br/>
-- 🎓 <b>Focusing On:</b> Advanced SQL, Data Pipelines, Python for Data Science (Pandas, NumPy), and Interactive BI Dashboards.<br/>
-- 📫 <b>Get In Touch:</b> <a href="https://github.com/vatsalporwal68">@vatsalporwal68</a> on GitHub
+- 💼 <b>Current Role:</b> Chief Data Executive at <b>BillionEdge Technologies</b>.<br/>
+- 📊 <b>What I Do:</b> Engineer robust Python & SQL ETL/ELT pipelines, build interactive Power BI dashboards, and conduct deep-dive EDA to unlock business growth.<br/>
+- 🎓 <b>Education:</b> B.Tech in Artificial Intelligence & Machine Learning at <b>Galgotias College of Engineering and Technology</b> (2023 – 2027).<br/>
+- 🏅 <b>Certifications:</b> HackerRank Advanced SQL Certified.<br/>
+- 📍 <b>Location:</b> Noida, Uttar Pradesh, India
 </samp>
 
 ---
 
-### /// TECH STACK & ANALYTICS TOOLKIT
+### 🛠️ TECHNICAL TOOLKIT & SKILLS
 
 <p align="left">
-  <b>Data Analysis & Statistics:</b><br/>
-  <code>Python</code> • <code>SQL</code> • <code>Pandas</code> • <code>NumPy</code> • <code>R</code> • <code>Excel (Advanced)</code>
+  <b>Data Engineering & Modeling:</b><br/>
+  <code>dbt Core</code> • <code>Snowflake</code> • <code>ETL / ELT Pipelines</code> • <code>Kimball Methodology</code> • <code>Data Modeling</code> • <code>MySQL</code> • <code>DBMS</code>
 </p>
 
 <p align="left">
-  <b>Visualization & Business Intelligence:</b><br/>
-  <code>Power BI</code> • <code>Tableau</code> • <code>Matplotlib</code> • <code>Seaborn</code> • <code>Plotly</code>
+  <b>Data Analysis & Programming:</b><br/>
+  <code>Advanced SQL (CTEs, Window Functions)</code> • <code>Python</code> • <code>Pandas</code> • <code>NumPy</code> • <code>C</code>
 </p>
 
 <p align="left">
-  <b>Databases & Tools:</b><br/>
-  <code>PostgreSQL</code> • <code>MySQL</code> • <code>MongoDB</code> • <code>Jupyter Notebooks</code> • <code>Git</code> • <code>Google BigQuery</code>
+  <b>Business Intelligence & Visualization:</b><br/>
+  <code>Power BI</code> • <code>Microsoft Excel (Advanced KPIs)</code> • <code>Seaborn</code> • <code>Matplotlib</code> • <code>Plotly</code>
 </p>
+
+<p align="left">
+  <b>Dev Tools & Orchestration:</b><br/>
+  <code>Git</code> • <code>GitHub Actions</code> • <code>SSMS</code> • <code>Jinja</code> • <code>Kaggle API</code>
+</p>
+
+---
+
+### 🚀 FEATURED DATA PROJECTS
+
+#### 1. 🏗️ [End-to-End ELT Data Pipeline (dbt Core + Snowflake + Python)](https://github.com/vatsalporwal68/dbt-snowflake-data-pipeline)
+- Scalable ELT data pipeline executing modular transformations and data quality validations against Snowflake's TPC-H dataset.
+- Multi-layered **dbt Core** structure (*Staging views → Intermediate tables → Kimball Dimensional Marts*).
+- Programmed Jinja macros to aggregate pricing & net sales across **6,001,215 record lines**.
+- Automated execution orchestrator written in Python.
+
+#### 2. 🔍 [SQL & Python Data Analysis Workflow](https://github.com/vatsalporwal68/SQL_Python_Data_Analysis)
+- End-to-end data analysis workflow from raw data ingestion to database querying.
+- Automated dataset downloads via Kaggle API and cleansed data using Pandas.
+- Crafted complex SQL queries (CTEs, Window Functions) for regional sales metrics and YoY profit growth.
+
+#### 3. 📈 [Python Data Analytics & Job Market Trends](https://github.com/vatsalporwal68/Python_Data_Analytics_Project)
+- Exploratory analysis mapping skill demand, trends, and salary distributions across data roles using Pandas & Seaborn.
 
 ---
 
@@ -89,5 +121,5 @@
 ---
 
 <div align="center">
-  <samp>Crafted for Vatsal Porwal • Data Analyst • Self-Generated via GitHub Actions</samp>
+  <samp>Crafted for Vatsal Porwal • Chief Data Executive • Self-Generated via GitHub Actions</samp>
 </div>
