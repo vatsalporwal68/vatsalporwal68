@@ -8,12 +8,16 @@
   <rect class="bg" width="440" height="150" />
   <text x="20" y="30" class="title">/// TOP LANGUAGES</text>
   
-        <text x="20" y="55" class="lang-lbl">Python</text>
-        <rect x="140" y="45" width="128" height="10" fill="#f1e05a" rx="3"/>
-        <text x="278" y="55" class="lang-pct">71.4%</text>
+        <text x="20" y="55" class="lang-lbl">Jupyter Notebook</text>
+        <rect x="140" y="45" width="162" height="10" fill="#f1e05a" rx="3"/>
+        <text x="312" y="55" class="lang-pct">90.4%</text>
         
-        <text x="20" y="79" class="lang-lbl">Jupyter Notebook</text>
-        <rect x="140" y="69" width="51" height="10" fill="#3572A5" rx="3"/>
-        <text x="201" y="79" class="lang-pct">28.6%</text>
+        <text x="20" y="79" class="lang-lbl">Python</text>
+        <rect x="140" y="69" width="17" height="10" fill="#3572A5" rx="3"/>
+        <text x="167" y="79" class="lang-pct">9.6%</text>
+        
+        <text x="20" y="103" class="lang-lbl">Dockerfile</text>
+        <rect x="140" y="93" width="0" height="10" fill="#41b883" rx="3"/>
+        <text x="150" y="103" class="lang-pct">0.0%</text>
         
 </svg>

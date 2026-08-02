@@ -8,9 +8,9 @@
   <rect class="bg" width="440" height="110" />
   <text x="20" y="30" class="title">/// STREAK TRACKER</text>
   
-  <text x="20" y="65" class="num">12 days</text>
+  <text x="20" y="65" class="num">0 days</text>
   <text x="20" y="85" class="lbl">Current Streak</text>
   
-  <text x="240" y="65" class="num">45 days</text>
+  <text x="240" y="65" class="num">251 days</text>
   <text x="240" y="85" class="lbl">Longest Streak</text>
 </svg>
