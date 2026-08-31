@@ -1,23 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 150" width="440" height="150">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 161" width="440" height="161">
   <style>
     .bg { fill: #0d1117; rx: 8px; }
     .title { font-family: monospace; font-size: 14px; font-weight: bold; fill: #d2a8ff; }
     .lang-lbl { font-family: monospace; font-size: 12px; fill: #c9d1d9; }
     .lang-pct { font-family: monospace; font-size: 11px; fill: #8b949e; }
   </style>
-  <rect class="bg" width="440" height="150" />
+  <rect class="bg" width="440" height="161" />
   <text x="20" y="30" class="title">/// TOP LANGUAGES</text>
   
         <text x="20" y="55" class="lang-lbl">Jupyter Notebook</text>
-        <rect x="140" y="45" width="162" height="10" fill="#f1e05a" rx="3"/>
-        <text x="312" y="55" class="lang-pct">90.4%</text>
+        <rect x="140" y="45" width="150" height="10" fill="#f1e05a" rx="3"/>
+        <text x="300" y="55" class="lang-pct">83.6%</text>
         
         <text x="20" y="79" class="lang-lbl">Python</text>
-        <rect x="140" y="69" width="17" height="10" fill="#3572A5" rx="3"/>
-        <text x="167" y="79" class="lang-pct">9.6%</text>
+        <rect x="140" y="69" width="27" height="10" fill="#3572A5" rx="3"/>
+        <text x="177" y="79" class="lang-pct">15.3%</text>
         
-        <text x="20" y="103" class="lang-lbl">Dockerfile</text>
-        <rect x="140" y="93" width="0" height="10" fill="#41b883" rx="3"/>
-        <text x="150" y="103" class="lang-pct">0.0%</text>
+        <text x="20" y="103" class="lang-lbl">HTML</text>
+        <rect x="140" y="93" width="1" height="10" fill="#41b883" rx="3"/>
+        <text x="151" y="103" class="lang-pct">1.0%</text>
+        
+        <text x="20" y="127" class="lang-lbl">Dockerfile</text>
+        <rect x="140" y="117" width="0" height="10" fill="#e34c26" rx="3"/>
+        <text x="150" y="127" class="lang-pct">0.0%</text>
         
 </svg>
