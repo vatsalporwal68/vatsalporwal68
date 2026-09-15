@@ -9,12 +9,12 @@
   <text x="20" y="30" class="title">/// TOP LANGUAGES</text>
   
         <text x="20" y="55" class="lang-lbl">Jupyter Notebook</text>
-        <rect x="140" y="45" width="150" height="10" fill="#f1e05a" rx="3"/>
-        <text x="300" y="55" class="lang-pct">83.6%</text>
+        <rect x="140" y="45" width="149" height="10" fill="#f1e05a" rx="3"/>
+        <text x="299" y="55" class="lang-pct">83.3%</text>
         
         <text x="20" y="79" class="lang-lbl">Python</text>
-        <rect x="140" y="69" width="27" height="10" fill="#3572A5" rx="3"/>
-        <text x="177" y="79" class="lang-pct">15.3%</text>
+        <rect x="140" y="69" width="28" height="10" fill="#3572A5" rx="3"/>
+        <text x="178" y="79" class="lang-pct">15.7%</text>
         
         <text x="20" y="103" class="lang-lbl">HTML</text>
         <rect x="140" y="93" width="1" height="10" fill="#41b883" rx="3"/>
