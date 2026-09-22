@@ -10,10 +10,10 @@
   <text x="20" y="30" class="title">/// CONTRIBUTIONS &amp; ACTIVITY</text>
   
   <text x="20" y="65" class="stat-label">Total Contributions:</text>
-  <text x="220" y="65" class="stat-value">1581</text>
+  <text x="220" y="65" class="stat-value">1589</text>
   
   <text x="20" y="90" class="stat-label">Commits:</text>
-  <text x="220" y="90" class="stat-value">85</text>
+  <text x="220" y="90" class="stat-value">98</text>
   
   <text x="20" y="115" class="stat-label">Pull Requests / Reviews:</text>
   <text x="220" y="115" class="stat-value">1 / 0</text>
