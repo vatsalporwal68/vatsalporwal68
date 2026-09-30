@@ -9,16 +9,16 @@
   <text x="20" y="30" class="title">/// TOP LANGUAGES</text>
   
         <text x="20" y="55" class="lang-lbl">Jupyter Notebook</text>
-        <rect x="140" y="45" width="142" height="10" fill="#f1e05a" rx="3"/>
-        <text x="292" y="55" class="lang-pct">79.4%</text>
+        <rect x="140" y="45" width="141" height="10" fill="#f1e05a" rx="3"/>
+        <text x="291" y="55" class="lang-pct">78.7%</text>
         
         <text x="20" y="79" class="lang-lbl">Python</text>
-        <rect x="140" y="69" width="35" height="10" fill="#3572A5" rx="3"/>
-        <text x="185" y="79" class="lang-pct">19.6%</text>
+        <rect x="140" y="69" width="36" height="10" fill="#3572A5" rx="3"/>
+        <text x="186" y="79" class="lang-pct">20.3%</text>
         
         <text x="20" y="103" class="lang-lbl">HTML</text>
         <rect x="140" y="93" width="1" height="10" fill="#41b883" rx="3"/>
-        <text x="151" y="103" class="lang-pct">1.0%</text>
+        <text x="151" y="103" class="lang-pct">0.9%</text>
         
         <text x="20" y="127" class="lang-lbl">Dockerfile</text>
         <rect x="140" y="117" width="0" height="10" fill="#e34c26" rx="3"/>
